@@ -1,46 +1,3 @@
-# connect-mongoose-session-store
-
-## An implementation of connect session store with Mongoose.
-    * It also support passport authentication automatically.
-    * Specified https://github.com/senchalabs/connect/blob/master/lib/middleware/session/store.js
-
-## Installation
-
-    $ npm install connect-mongoose-session-store
-
-## Usage
-
-    var express = require('express'),
-    sessionStore = require("connect-mongoose-session-store")(express),
-    app = express(),
-    server = http.createServer(app),
-    sessionStore = new sessionStore({
-        host: 'localhost',
-        port: 27017,
-        db: 'mydb',
-        stringify: false,
-        maxAge: 60 * 60 * 1000,
-        autoRemoveExpiredSession: true
-    });
-    app.use(express.session({
-        secret: 'mlpi',
-        key: 'mlpi.sid',
-        cookie: {
-          path: '/',
-          domain: '',
-          httpOnly: true,
-          maxAge: 60 * 60 * 1000
-        },
-        store: sessionStore
-    }));
-
-
-## Credits
-
-  - [Sajib Sarkar](http://github.com/thebapi)
-
-## License
-
 The MIT License (MIT)
 
 Copyright (c) 2013 Sajib Sarkar
@@ -61,4 +18,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-

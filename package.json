@@ -1,0 +1,35 @@
+{
+  "name": "connect-mongoose-session-store",
+  "version": "0.0.1",
+  "description": "An implementation of  connect session store with MongoDB and Mongoose ORM. It also support passport authentication automatically.",
+  "keywords": [
+    "connect",
+    "mongo",
+    "mongodb",
+    "session",
+    "express",
+    "passport",
+    "pasportjs",
+    "mongoose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebapi/connect-mongoose-session-store.git"
+  },
+  "author": {
+    "name": "Sajib Sarkar",
+    "email": "thebapi@gmail.com"
+  },
+  "dependencies": {
+    "mongoose": "latest"
+  },
+  "main": "index",
+  "engines": "node >= 0.4.x",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/thebapi/connect-mongoose-session-store/issues"
+  },
+  "homepage": "https://github.com/thebapi/connect-mongoose-session-store",
+  "_id": "connect-mongoose-session-store@0.0.1",
+  "_from": "connect-mongoose-session-store@latest"
+}
