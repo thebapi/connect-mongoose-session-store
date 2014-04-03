@@ -2,6 +2,7 @@
 
 ## An implementation of connect session store with Mongoose.
     * It also support passport authentication automatically.
+    * It keeps automatic session history
     * Specified https://github.com/senchalabs/connect/blob/master/lib/middleware/session/store.js
 
 ## Installation
@@ -20,7 +21,9 @@
         db: 'mydb',
         stringify: false,
         maxAge: 60 * 60 * 1000,
-        autoRemoveExpiredSession: true
+        autoRemoveExpiredSession: true,
+        sessionSchema: 'any_mongoose_schema',        // optional
+        sessionHistorySchema: 'any_mongoose_schema'  // optional
     });
     app.use(express.session({
         secret: 'mlpi',
