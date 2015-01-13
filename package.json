@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "mongoose": "latest",
-    "async": "latest
+    "async": "latest"
   },
   "main": "index",
   "engines": "node >= 0.4.x",
