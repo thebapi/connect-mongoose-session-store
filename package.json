@@ -21,7 +21,8 @@
     "email": "thebapi@gmail.com"
   },
   "dependencies": {
-    "mongoose": "latest"
+    "mongoose": "latest",
+    "async": "latest"
   },
   "main": "index",
   "engines": "node >= 0.4.x",
