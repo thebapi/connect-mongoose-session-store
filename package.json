@@ -1,6 +1,6 @@
 {
   "name": "connect-mongoose-session-store",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "An implementation of  connect session store with MongoDB and Mongoose ORM. It also support passport authentication automatically.",
   "keywords": [
     "connect",
@@ -21,7 +21,7 @@
     "email": "thebapi@gmail.com"
   },
   "dependencies": {
-    "mongoose": "3.8.x",
+    "mongoose": "3.8",
     "async": "0.x"
   },
   "main": "index",
