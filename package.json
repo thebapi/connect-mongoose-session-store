@@ -1,6 +1,6 @@
 {
   "name": "connect-mongoose-session-store",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "An implementation of  connect session store with MongoDB and Mongoose ORM. It also support passport authentication automatically.",
   "keywords": [
     "connect",
