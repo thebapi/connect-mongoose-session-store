@@ -37,6 +37,16 @@
         store: sessionStore
     }));
 
+## Important Note
+
+This connect store will not store any session data unless you marked the forceUpdate.
+
+for example: 
+
+To save a settings of session
+
+req.session.myClientIp = 'xxxxxx';
+req.session.forceUpdate = true; // make sure you call this to ensure its saving in the db correctly
 
 ## Credits
 
